@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog : `${}`</title>
+
+    <link rel="stylesheet" href="css/Landing.css">
+    <link rel="stylesheet" href="css/editor.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Tejas' Blogsite</h1>
+        <ul class="links-container">
+            <li class="link-item"><a href="/" class="link">Home</a></li>
+            <li class="link-item"><a href="/archive" class="link">Archive</a></li>
+            <li class="link-item"><a href="/about" class="link">About</a></li>
+        </ul>
+    </nav>
+    
+    <div class="blog">
+        <div class="banner"></div>
+        <h1 class="title"></h1>
+        <p class="published"><span>published at - </span></p>
+        <div class="article">
+        </div>
+    </div>
+    <footer class="footnote">
+        <hr>
+        <h5 class="fn-rp">Recent Posts</h5>
+        <div class="recent-posts">
+
+        </div>
+        <p class="cc">&#9400 Tejasvi 2024</p>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>
+
